@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <h1>To -- Do List <img id="todo_image" src="to-do-list-icon.jpg" alt="todo"></h1>
+            <br>
+            <form id="new-task-form">
+                <input
+                    type="text"
+                    id="new-task-input"
+                    placeholder="What do you have planned?">
+                <input
+                    type="submit"
+                    value="Add task"
+                    id="new-task-submit"/>
+            </form>
+        </header>
+        <main>
+            <section class="task-list">
+                <h2>Your Added Tasks :-</h2>
+                <div id="tasks"></div>
+            </section>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
